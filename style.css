@@ -1,5 +1,5 @@
 p{
-  font-size: 24px;
+  font-size: 16px;
 }
 main{
   margin: 10%;
@@ -30,7 +30,7 @@ main{
   height: auto;
 }
 #introp{
-  font-size: 24px;
+  font-size: 20px;
 }
 #weare{
   display: flex;
