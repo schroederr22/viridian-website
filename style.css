@@ -1,0 +1,59 @@
+p{
+  font-size: 24px;
+}
+main{
+  margin: 10%;
+
+}
+.section{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "left right";
+  grid-gap: 10px 30px;
+  /*        row  col */
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.section div{
+  border-bottom: 1px solid gray;
+}
+.single-section{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.single-section div{
+  border-bottom: 1px solid gray;
+}
+#teamphoto{
+  width: 100%;
+  height: auto;
+}
+#introp{
+  font-size: 24px;
+}
+#weare{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#icons a{
+  padding:2px;
+  color:black;
+}
+#twitter{
+  text-align:center;
+}
+#calendar-container{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%;
+}

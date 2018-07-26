@@ -1,1 +1,57 @@
-<p>fooood</p>
+---
+stylesheets:
+  - style.css
+title: Home - Viridian Robotics
+---
+<!DOCTYPE html>
+<html lang = "en">
+{% include head.html %}
+<body>
+{% include navigation.html %}
+<main>
+  <div class = "section">
+    <div class = "left">
+      <h1 class ="text-center">We are Viridian Robotics!</h1>
+    </div>
+    <div class = "right" id = "icons">
+      <a href= "https://twitter.com/viridianrobotic" target = "_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+      <a href = "mailto:viridianrobotics@gmail.com" target = "_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
+    </div>
+  </div>
+  <div class = "section">
+    <div>
+      <img src= "{{ "/images/teamphoto.png" | absolute_url }}" alt = "a team photo" id = "teamphoto">
+    </div>
+    <div id = "weare">
+      <p id ="introp">We are Viridian Robotics, Team 9054, one of two teams from <a href = "https://www.greenhill.org/page" target = "_blank">Greenhill School</a> (the other is the <a href="https://twitter.com/MotorheadsGHS" target = "_blank">Motorheads, Team 9045</a>). We are the founding team of the robotics program at Greenhill School, and this is our 5th year competing in First Tech Challenge.</p>
+    </div>
+  </div>
+  <div class = "section">
+    <div>
+      <h1>Our History</h1>
+      <p>In the year of our founding, the very beginning of our team started with a big dream. We had a total of eight members by the end of our first month and a small space with scant storage. Now, we have expanded to two teams of around eleven members each with dedicated programmers, 3D-designers, and builders. Our experiences at previous FTC meets, including winning the Think Award at the Qualifying Championship 2014-2015 and competing at the Regional Championship 2014-2015, has overall strengthened our team and progress year after year. Everyone works together cohesively and becomes exposed to each part of the process, and in the years to come, our robotics teams will continue to achieve and set more goals to challenge ourselves to always work our hardest and be the best team we can possibly be. </p>
+    </div>
+    <div id = "twitter">
+      <h3>Recent Tweets</h3>
+      <a class="twitter-timeline tw-align-center" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/viridianrobotic?ref_src=twsrc%5Etfw">Tweets by viridianrobotic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+  <div class ="single-section">
+    <div id = "calendar-container">
+      <h2>Schedule</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=viridianrobotics%40gmail.com&amp;color=%2329527A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+  <div>
+
+  <!-- <div class = "section">
+    <div class = "left">
+    </div>
+    <div class = "right">
+    </div>
+  </div> -->
+</main>
+{% include footer.html %}
+{% include bootstrap.html %}
+</body>
+</html>

@@ -1,0 +1,17 @@
+<head>
+<meta charset = "UTF-8">
+<meta name = "description" content = "Daniel Lawson's portfolio">
+<meta name = "author" content = "Daniel Lawson">
+<title>{{ page.title }}</title>
+<!-- stylesheets -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ "/shared/style.css" | absolute_url }}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+{% for sheet in page.stylesheets %}
+<link href = "{{ sheet }}" rel = "stylesheet" type = "text/css">
+{% endfor %}
+<!-- javascript -->
+{% for script in page.javascript %}
+<script src = "{{ script }}"></script>
+{% endfor %}
+</head>
