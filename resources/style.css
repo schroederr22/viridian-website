@@ -12,3 +12,11 @@ main div{
   margin-bottom: 40px;
   margin-top: 40px;
 }
+li{
+  font-size: 2vw;
+}
+@media (max-width: 700px){
+  p{
+    font-size: 14px;
+  }
+}
