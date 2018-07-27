@@ -58,7 +58,7 @@ main{
   padding-bottom: 2%;
 }
 /* for mobile and smaller screens */
-@media (max-width: 750px){
+@media (max-width: 800px){
   .section{
     display: flex;
     flex-direction: column;
