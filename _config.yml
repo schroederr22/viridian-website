@@ -1,2 +1,6 @@
 destination: _site
 url: https://viridian-robotics.org
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from

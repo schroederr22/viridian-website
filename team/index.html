@@ -1,0 +1,31 @@
+---
+title: Team - Viridian Robotics
+stylesheets:
+  - style.css
+---
+<!DOCTYPE html>
+<html lang = "en">
+{% include head.html %}
+<body>
+{% include navigation.html %}
+<div>
+  <h1>Meet the Team</h1>
+</div>
+<div id = "members">
+{% for member in site.data.members  %}
+<div class ="member">
+  {% assign photo =  member.name | remove: " "  | append: ".png" | prepend: "/images/members/" | absolute_url%}
+  <img src = "{{ photo }}" class ="photo">
+  <div>
+    <h2>{{ member.name}}</h2>
+    <h3><span class = "badge badge-primary">{{ member.year }}</span></h3>
+    <h3><span class = "badge badge-secondary">{{ member.role}}</span></h3>
+    <p>{{ member.paragraph}}</p>
+  </div>
+</div>
+{% endfor %}
+</div>
+{% include footer.html %}
+{% include bootstrap.html %}
+</body>
+</html>

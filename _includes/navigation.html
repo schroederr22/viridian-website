@@ -9,9 +9,9 @@
     <div class="navbar-nav">
       {% for title in titles %}
         {% if title == shortTitle %}
-          <a class="nav-item nav-link active" href="#">{{ title }}</a>
+          <a class="nav-item nav-link active" href="{{ title | absolute_url}}">{{ title }}</a>
         {% else %}
-          <a class="nav-item nav-link" href="#">{{ title }}</a>
+          <a class="nav-item nav-link" href="{{title | absolute_url}}">{{ title }}</a>
         {% endif %}
       {% endfor %}
     </div>

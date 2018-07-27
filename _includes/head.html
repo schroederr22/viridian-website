@@ -30,10 +30,10 @@
 <meta name="msapplication-config" content="{{ "/images/favicons/browserconfig.xml" | absolute_url }}">
 <!-- individual page sheets -->
 {% for sheet in page.stylesheets %}
-<link href = "{{ sheet | absolute_url }}" rel = "stylesheet" type = "text/css">
+<link href = "{{ sheet }}" rel = "stylesheet" type = "text/css">
 {% endfor %}
 <!-- javascript -->
 {% for script in page.javascript %}
-<script src = "{{ script | absolute_url }}"></script>
+<script src = "{{ script }}"></script>
 {% endfor %}
 </head>
