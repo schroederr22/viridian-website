@@ -1,0 +1,39 @@
+- name: Pulkit Gupta
+  year: Senior
+  role: Head-Programmer
+  paragraph: Hi! I am a senior at Greenhill, and this is my third year in Greenhill robotics. I am a programmer on the team, and I enjoy robotics because it involves coding and solving real problems. I enjoy the teamwork on the robotics team, and I have learned many new things about programming throughout the year.
+
+- name: Naren Ram
+  year: Sophomore
+  role: Programmer
+  paragraph: Hello! I am a Sophomore at Greenhill. I was part of the FLL program in middle school and was part of the first senior class for middle school robotics. As a high schooler I hope to continue my robotics career by programing the robot. I hope to major in robotics and CS in college, and continue using robotics in the future. Outside of robotics, I love tennis, saxophone, volleyball, and science. As a programmer I enjoy solving problems and finding creative solutions. This year as a second year team member, I hope to learn more and contribute more to our team.
+
+- name: David Bell
+  year: Senior
+  role: Captain
+  paragraph: I am a Senior At Greenhill and joined robotics my freshman year. I have had prior experience in FLL when I was younger and won the Boy Scouts Pinewood Derby 2 years in a row by attaching motors to the back of the car. I have been learning 3D design through robotics and have enjoyed every moment of it, along with spending long nights in the robotics room getting everything ready for tournaments. It has been a lot of fun spending time with the team and modifying our robots to encompass our new ideas.
+
+- name: Daniel Lawson
+  year: Senior
+  role: Captain
+  paragraph: I am a senior at Greenhill. I  have been on the robotics team since the start of my freshman year. On the team I am one of the 3D designers, and I also act as a builder on the robot. I like being on the robotics team because I learn new things, enjoy teamwork, and have a lot of great memories from all of us working together.
+
+- name: Bradley Bolton
+  year: Senior
+  role: Builder
+  paragraph: I joined the robotics team as a junior this year. I’ve been interested since I was a freshman, but did not have the time to participate until now. I have no prior experience with robotics, but I have spent time using low voltage electronics with arduino. I spend most of my time doing whatever needs to get done, or helping when people nee
+
+- name: Luke Contreras
+  year: Junior
+  role: Captain
+  paragraph: My name is Luke and I am a sophomore here at Greenhill School. I am a very versatile member of the team. While I have programming experience, I also have building experience. I joined robotics because I see computer science as an important field now and in the coming decades. I hope to get experience with the hardware and software to put my computer science skills into action.
+
+- name: Amon Guinan
+  year: Junior
+  role: Builder
+  paragraph: I joined as a sophomore due to my interest in engineering. I have some experience with robotics, but I plan on learning a lot this year. I have had an incredible time building this year in robotic and I can’t wait to see what we accomplish this year.
+
+- name: Everett Graves
+  year: Sophomore
+  role: Designer
+  paragraph: I have officially been doing robotics since 6th grade (FLL) but I have been interested in engineering since before 4th grade. The reason I am a designer is because i have a good vision about how to fix problems and see how things will work. I also have experience with 3D printing and I’m normally really good with computers (everything except for programming) Aside from robotics i spend a lot of time messing around with computers and engineering with arduino and 3D printed prototypes.
