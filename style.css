@@ -1,9 +1,13 @@
+body{
+  /*background-color:rgb(94, 193, 63)*/
+}
 p{
   font-size: 16px;
 }
 main{
   margin: 10%;
-
+  margin-top:10%;
+  background-color:white;
 }
 .section{
   display: grid;
@@ -13,12 +17,13 @@ main{
   /*        row  col */
   padding-bottom: 20px;
   padding-top: 20px;
-
+  background-color:white;
 }
 .section div{
   border-bottom: 1px solid gray;
 }
 .single-section{
+   background-color: white;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -26,8 +31,11 @@ main{
   border-bottom: 1px solid gray;
 }
 #teamphoto{
-  width: 100%;
+  display:block;
+  margin:auto;
+  width: 90%;
   height: auto;
+  margin-bottom: 5px;
 }
 #introp{
   font-size: 20px;

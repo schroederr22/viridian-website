@@ -28,9 +28,11 @@ h3{
   border-radius: 3px;
 }
 .photo{
-  max-width:100%;
+  max-width:90%;
   height: auto;
-  border-radius: 2px;
+  border-radius: 3px;
+  display: block;
+  margin: auto;
 }
 @media (max-width: 800px){
   #members{
