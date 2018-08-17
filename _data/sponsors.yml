@@ -1,0 +1,11 @@
+- name: PolyPrinter
+  tier: Special
+  description: >
+   If you're familiar with 3d printing technology. Here are some things you should know about the PolyPrinter:
+   It's faster than most other printers. We don't know of a faster one for anywhere near the same money.
+   It prints better quality parts than most others. The design of the PolyPrinter, and our attention to detail, gives an outstanding printed result. It does that even when printing quite quickly. A lot of people have been very surprised at how good the parts are, especially if they have seen parts printed by other printers before.
+
+- name: SolidWorks
+  tier: Special
+  description: >
+   SOLIDWORKS® solutions can help boost productivity, harness intelligence, foster innovation, and facilitate collaboration. Through tight integration, SOLIDWORKS tools enable you to leverage 3D models throughout the organization, bringing processes together so you can get products to market faster.

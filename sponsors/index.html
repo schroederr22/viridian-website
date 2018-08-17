@@ -1,0 +1,38 @@
+---
+title: Sponsors - Viridian Robotics
+stylesheets:
+  - style.css
+---
+<!DOCTYPE html>
+<html lang = "en">
+{% include head.html %}
+<body>
+{% include navigation.html %}
+<main>
+  <h1>Sponsors</h1>
+  <p>We would like to thank all our sponsors for supporting Viridian Robotic.
+  Our sponsors provide us with important monetary and material support that we need to succeed as a team.
+  If you are interested in sponsoring us, please send us an <a href= "mailto:viridianrobotics@gmail.com" target = "_blank">email</a> at viridianrobotics@gmail.com.
+  </p>
+  {% assign tieres = "Gold Silver Bronze Special" | split: " " %}
+  {% for tier in tieres %}
+  <div class = "tier">
+    <h2>{{ tier | append: " Sponsors" }}</h2>
+    {% for sponsor in site.data.sponsors %}
+    {% if sponsor.tier == tier %}
+    <div class = "sponsor">
+      <img src = "{{ sponsor.name | downcase | append: ".png" | prepend: "/images/sponsors/" | absolute_url }}" alt = "a sponsor logo">
+      <div>
+        <h3>{{ sponsor.name }}</h3>
+        <p>{{ sponsor.description }}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  {% endfor %}
+</main>
+{% include footer.html %}
+{% include bootstrap.html %}
+</body>
+</html>

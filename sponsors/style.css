@@ -1,0 +1,33 @@
+main{
+  margin: auto;
+  width: 70%
+}
+.tier{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-bottom: 1px solid gray;
+}
+.sponsor{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sponsor img{
+  width: 70%;
+  margin: auto;
+}
+ @media (max-width: 800px){
+   .sponsor{
+     display: flex;
+     flex-direction: column;
+   }
+   .sponsor h3, p{
+     text-align: center;
+   }
+   .sponsor img{
+     width: 50%;
+   }
+ }

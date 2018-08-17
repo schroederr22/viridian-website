@@ -8,23 +8,53 @@ stylesheets:
 {% include head.html %}
 <body>
 {% include navigation.html %}
-<div>
-  <h1>Meet the Team</h1>
+<h1>Meet the Team</h1>
+<h2>Captains</h2>
+<div id = "captains">
+  {% for member in site.data.members %}
+    {% if member.role == "Captain" %}
+    <div class ="member">
+      <div class = "badges">
+        <h3><span class = "badge badge-primary">{{ member.year }}</span></h3>
+        <h3><span class = "badge badge-dark">{{ member.role}}</span></h3>
+      </div>
+      <div class = "content">
+        <h2>{{ member.name}}</h2>
+        {% assign photo =  member.name | remove: " "  | append: ".png" | prepend: "/images/members/" | absolute_url%}
+        <img src = "{{ photo }}" class ="photo">
+        <p>{{ member.paragraph}}</p>
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
 </div>
-<div id = "members">
-{% for member in site.data.members  %}
-<div class ="member">
-  {% assign photo =  member.name | remove: " "  | append: ".png" | prepend: "/images/members/" | absolute_url%}
-  <img src = "{{ photo }}" class ="photo">
-  <div>
-    <h2>{{ member.name}}</h2>
-    <h3><span class = "badge badge-primary">{{ member.year }}</span></h3>
-    <h3><span class = "badge badge-secondary">{{ member.role}}</span></h3>
-    <p>{{ member.paragraph}}</p>
+<h2>The Team</h2>
+{% assign grades = "Senior Junior Sophomore Freshman " | split: ' ' %}
+{% for grade in grades %}
+  {% if grade != "Freshman" %}
+  <h3>{{ grade | append: "s" }}</h3>
+  {% else %}
+  <h3>Freshmen</h3>
+  {% endif %}
+  <div class = "members">
+    {% for member in site.data.members  %}
+      {% if member.year == grade and member.role != "Captain" %}
+      <div class ="member">
+        <div class = "badges">
+          <h3><span class = "badge badge-primary">{{ member.year }}</span></h3>
+          <h3><span class = "badge badge-dark">{{ member.role}}</span></h3>
+        </div>
+        <div class = "content">
+          <h2>{{ member.name}}</h2>
+          {% assign photo =  member.name | remove: " "  | append: ".png" | prepend: "/images/members/" | absolute_url%}
+          <img src = "{{ photo }}" class ="photo">
+          <p>{{ member.paragraph}}</p>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
   </div>
-</div>
 {% endfor %}
-</div>
 {% include footer.html %}
 {% include bootstrap.html %}
 </body>

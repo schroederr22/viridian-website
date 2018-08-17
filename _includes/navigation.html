@@ -1,4 +1,4 @@
-{% assign titles = "home team resources" | downcase | split: ' ' %}
+{% assign titles = "home team sponsors resources" | downcase | split: ' ' %}
 {% assign shortTitle = page.title | remove: " - Viridian Robotics" | downcase %}
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style = "background-color:white!important;border-bottom: 1px solid gray;">
   <a class="navbar-brand" href="#" style = "margin-left:20px;margin-right:15px;;"><img src = "{{ "/images/smallviridianlogo.png" | absolute_url }}" alt = "viridian logo" style = "width:200px;height:auto"></a>
@@ -9,9 +9,9 @@
     <div class="navbar-nav">
       {% for title in titles %}
         {% if title == shortTitle %}
-          <a class="nav-item nav-link active" href="{{ title | absolute_url}}">{{ title }}</a>
+          <a class="nav-item nav-link active" href="{{ title | absolute_url}}">{{ title | capitalize }}</a>
         {% else %}
-          <a class="nav-item nav-link" href="{{title | absolute_url}}">{{ title }}</a>
+          <a class="nav-item nav-link" href="{{title | absolute_url}}">{{ title | capitalize }}</a>
         {% endif %}
       {% endfor %}
     </div>

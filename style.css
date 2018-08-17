@@ -30,12 +30,16 @@ main{
 .single-section div{
   border-bottom: 1px solid gray;
 }
+#firstsec{
+  padding-bottom: 0px!important;
+  padding-top: 0px!important;
+}
 #teamphoto{
   display:block;
   margin:auto;
-  width: 90%;
+  width: 50%;
   height: auto;
-  margin-bottom: 5px;
+  margin-bottom: 5%;
 }
 #introp{
   font-size: 20px;
