@@ -1,0 +1,43 @@
+---
+title: Awards - Viridian Robotics
+stylesheets:
+  - style.css
+javascript:
+  - script.js
+---
+<!DOCTYPE html>
+<html lang = "en">
+{% include head.html %}
+<body>
+{% include navigation.html %}
+<h1>Our Awards</h1>
+<p>Hover over an award for more information</p>
+{% for year in site.data.awards %}
+  <h2>{{ year.years }}: {{year.game}}</h2>
+  <div class = "year">
+    {% for event in year.events %}
+    <div class = "event">
+      <h3>{{ event.event }}</h3>
+      {% for award in event.awards %}
+      {% assign type = award.name | split: " " %}
+        {% if type.last == "Award" %}
+        <div class = "award {{ award.level | prepend: "Tier" }} tier">
+          <p>{{ award.level }}</p>
+          <h4>{{ award.name }}</h3>
+        </div>
+        {% else %}
+        <div class = "award {{ award.level | prepend: "Event" }} place">
+          <p>{{ award.level }}</p>
+          <h4>{{ award.name }}</h3>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+</div>
+{% endfor %}
+{% include footer.html %}
+{% include bootstrap.html %}
+</body>
+</html>

@@ -1,0 +1,71 @@
+- years: 2014-2015
+  game: Cascade Effect
+  events:
+    - event: University of Texas Dalllas Qualifiers
+      awards:
+        - name: Think Award
+          level: 1st
+    - event: University of Texas Arlington Regionals
+      awards:
+        - name: Design Award
+          level: Finalist
+
+- years: 2015-2016
+  game: Res-Q
+  events:
+    - event: Emerald League (Greenhill)
+      awards:
+        - name: Design Award
+          level: 1st
+
+- years: 2016-2017
+  game: Velocity Vortex
+  events:
+    - event: Emerald League (Greenhill)
+      awards:
+        - name: Finalist Alliance
+          level: Finalist
+        - name: Innovate Award
+          level: 1st
+        - name: Control Award
+          level: 1st
+        - name: Inspire Award
+          level: 4th
+    - event: Hendrick MS Qualifiers
+      awards:
+        - name: Finalist Alliance
+          level: Finalist
+        - name: Inspire Award
+          level: 2nd
+        - name: Control Award
+          level: 1st
+    - event: Allen MS Regionals
+      awards:
+        - name: Inspire Award
+          level: 4th
+        - name: Think Award
+          level: 2nd
+
+- years: 2017-2018
+  game: Relic Recovery
+  events:
+    - event: Greenhill Qualifiers
+      awards:
+        - name: Inspire Award
+          level: 2nd
+        - name: Think Award
+          level: 2nd
+        - name: Motivate Award
+          level: 2nd
+        - name: Design Award
+          level: 3rd
+    - event: Hendrick MS Qualifiers
+      awards:
+        - name: Inspire Award
+          level: 2nd
+        - name: Design Award
+          level: 3rd
+        - name: Innovate Award
+          level: 3rd
+        - name: Think Award
+          level: 3rd

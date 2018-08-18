@@ -1,0 +1,105 @@
+:root{
+  --border-radius: 9px;
+}
+body > p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+h1{
+  text-align:center;
+  font-size: 50px;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+h4{
+  font-size: 1em;
+}
+.year{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.event{
+ display: flex;
+ flex-direction: column;
+ margin-left: 50px;
+ margin-right: 50px;
+ align-items: center;
+ padding-bottom: 50px;
+ margin-bottom: 50px;
+ border-bottom: 1px solid gray;
+
+}
+
+.award{
+  width: 300px;
+  min-height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 100px;
+
+}
+.award p,h4{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.award p{
+  border-radius: var(--border-radius,9px) 0px 0px var(--border-radius,9px);
+  color: white;
+  text-align: center;
+}
+.award h4{
+  border-radius: 0px var(--border-radius,9px) var(--border-radius,9px) 0px;
+  text-align:center;
+}
+.tier h4{
+  background-color: gray;
+}
+
+.Tier1st p{
+  background-color: #cc9900; /*gold*/
+}
+
+.Tier2nd p{
+  background-color:  #ccccb3; /*silver*/
+
+}
+
+.Tier3rd p{
+  background-color:  #804000;/*bronze*/
+
+}
+.Tier4th p{
+  background-color: #1f1f14 /*dark gray-black*/
+
+
+}
+.TierFinalist p{
+  background-color: #ffff66 /*tan*/
+
+}
+.place p{
+  background-color: red;
+}
+.Event1st h4{
+  background-color: #cc9900; /*gold*/
+}
+.Event2nd h4{
+  background-color:  #ccccb3; /*silver*/
+}
+.Event3rd h4{
+  background-color:  #804000;/*bronze*/
+}
+.Event4 h4{
+  background-color: #1f1f14 /*dark gray-black*/
+}
+.EventFinalist h4{
+background-color: #ffff66 /*tan*/
+}
