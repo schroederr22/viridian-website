@@ -43,7 +43,11 @@ h4{
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 100px;
-
+  box-shadow: 5px 5px black;
+  transition: 0.9s;
+}
+.award:hover{
+  box-shadow: 0px 0px gray;
 }
 .award p,h4{
   width: 100%;
@@ -51,13 +55,21 @@ h4{
   display: block;
 }
 .award p{
-  border-radius: var(--border-radius,9px) 0px 0px var(--border-radius,9px);
+  /*border-radius: var(--border-radius,9px) 0px 0px var(--border-radius,9px);*/
   color: white;
   text-align: center;
 }
+.award p::before{
+  float: left;
+  content: "";
+  width: 10px;
+  height: 100%;
+  background-color: gray;
+}
 .award h4{
-  border-radius: 0px var(--border-radius,9px) var(--border-radius,9px) 0px;
+  /*border-radius: 0px var(--border-radius,9px) var(--border-radius,9px) 0px;*/
   text-align:center;
+  vertical-align: middle;
 }
 .tier h4{
   background-color: gray;
@@ -68,7 +80,7 @@ h4{
 }
 
 .Tier2nd p{
-  background-color:  #ccccb3; /*silver*/
+  background-color:  #666666; /*silver*/
 
 }
 
@@ -82,7 +94,7 @@ h4{
 
 }
 .TierFinalist p{
-  background-color: #ffff66 /*tan*/
+  background-color: #993333 /*pink*/
 
 }
 .place p{
@@ -91,15 +103,30 @@ h4{
 .Event1st h4{
   background-color: #cc9900; /*gold*/
 }
+.Event1st p::before{
+  background-color: #cc9900; /*gold*/
+}
 .Event2nd h4{
-  background-color:  #ccccb3; /*silver*/
+  background-color:  #666666; /*silver*/
+}
+.Event2nd p::before{
+  background-color: #cc9900; /*silver*/
 }
 .Event3rd h4{
   background-color:  #804000;/*bronze*/
 }
-.Event4 h4{
+.Event3rd p::before{
+  background-color: #804000;/*bronze*/
+}
+.Event4th h4{
   background-color: #1f1f14 /*dark gray-black*/
 }
+.Event4th p::before{
+  background-color:#1f1f14 /*dark gray-black*/
+}
 .EventFinalist h4{
-background-color: #ffff66 /*tan*/
+background-color: #993333 /*pink*/
+}
+.EventFinalist p::before{
+  background-color: #993333 /*pink*/
 }
