@@ -4,7 +4,6 @@ document.querySelectorAll(".award").forEach((award) => {
 });
 
 function modifyText(e, addDescription){
-  console.log("text");
   element = e.target;
   paragraph = element.querySelector("h4");
   level = element.querySelector("p");
