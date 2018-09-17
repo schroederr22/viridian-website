@@ -9,11 +9,11 @@ function modifyText(e, addDescription){
   level = element.querySelector("p");
   if(addDescription){
     paragraph.innerHTML = descriptions[paragraph.innerHTML];
-    paragraph.style.fontSize = "12px";
+    paragraph.style.fontSize = "16px";
     level.style.opacity = ".5"
   }else{
     paragraph.innerHTML = reversedDescriptions[paragraph.innerHTML];
-    paragraph.style.fontSize = "1em";
+    paragraph.style.fontSize = "20px";
     level.style.opacity = "1";
   }
 }
