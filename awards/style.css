@@ -48,6 +48,7 @@ h4{
 }
 .award:hover{
   box-shadow: 0px 0px gray;
+  font-size: 16px;
 }
 .award p,h4{
   width: 100%;
