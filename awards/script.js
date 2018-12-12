@@ -26,9 +26,9 @@ let descriptions = {
   "Innovate Award": "The Rockwell Collins Innovate Award celebrates a Team that thinks outside the box, and has the ingenuity and inventiveness to make their designs come to life. This judged award is given to the Team that has the most innovative and creative Robot design solution to any specific components in the FIRST Tech Challenge game. ",
   "Inspire Award": "This judged award is given to the Team that embodied the challenge of the FIRST Tech Challenge program. The Team that receives this award is a strong ambassador for FIRST programs and a role model FIRST Team. This Team is a top contender for many other judged awards and is a gracious competitor. ",
   "Finalist Alliance": "One of the final teams in an event",
-  "Motivate Award": "This Team embraces the culture of FIRST and clearly shows what it means to be a Team. This judged award celebrates the Team that represents the essence of the FIRST Tech Challenge competition through Team building, Team spirit and displayed enthusiasm. This is a Team who makes a collective effort to make FIRST known throughout their school and community, and sparks others to embrace the culture of FIRST. "
+  "Motivate Award": "This Team embraces the culture of FIRST and clearly shows what it means to be a Team. This judged award celebrates the Team that represents the essence of the FIRST Tech Challenge competition through Team building, Team spirit and displayed enthusiasm. This is a Team who makes a collective effort to make FIRST known throughout their school and community, and sparks others to embrace the culture of FIRST. ",
+  "Connect Award": "This team connects with their community"
 }
-
 let reversedDescriptions = {};
 for(key in descriptions){
   reversedDescriptions[descriptions[key]] = key;
