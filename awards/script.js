@@ -27,7 +27,8 @@ let descriptions = {
   "Inspire Award": "This judged award is given to the Team that embodied the challenge of the FIRST Tech Challenge program. The Team that receives this award is a strong ambassador for FIRST programs and a role model FIRST Team. This Team is a top contender for many other judged awards and is a gracious competitor. ",
   "Finalist Alliance": "One of the final teams in an event",
   "Motivate Award": "This Team embraces the culture of FIRST and clearly shows what it means to be a Team. This judged award celebrates the Team that represents the essence of the FIRST Tech Challenge competition through Team building, Team spirit and displayed enthusiasm. This is a Team who makes a collective effort to make FIRST known throughout their school and community, and sparks others to embrace the culture of FIRST. ",
-  "Connect Award": "This team connects with their community"
+  "Connect Award": "This judged award is given to the team that most connects with their local science, technology, engineering and math (STEM) community. A true FIRST team is more than a sum of its parts and recognizes that engaging their local STEM community plays an essential part in their success... This team has a clear Business or Strategic Plan and has identified steps to achieve their goals"
+
 }
 let reversedDescriptions = {};
 for(key in descriptions){
