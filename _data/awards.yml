@@ -76,3 +76,11 @@
       awards:
         - name: Connect Award
           level: 1st
+    - event: Bethesda Christian School Qualifier
+      awards:
+        - name: Inspire Award
+          level: 2nd
+        - name: Think Award
+          level: 1st
+        - name: Motivate Award
+          level: 3rd 
