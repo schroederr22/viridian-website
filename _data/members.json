@@ -15,7 +15,7 @@
       "name": "David Bell",
       "year": "Senior",
       "role": "Captain",
-      "paragraph": "I am a senior at Greenhill, and joined robotics my freshman year. I have had prior experience in FLL and won the Boy Scouts Pinewood Derby 2 years in a row by attaching motors to the back of the car. I have learned 3D design through robotics and have enjoyed every moment of it (along with spending long nights in the robotics room getting everything ready for tournaments). It has been a lot of fun spending time with the team and crafting new robots to encompass our ideas.",
+      "paragraph": "I am a senior at Greenhill and joined robotics my freshman year. I have had prior experience in FLL and won the Boy Scouts Pinewood Derby 2 years in a row by attaching motors to the back of the car. I have learned 3D design through robotics and have enjoyed every moment of it (along with spending long nights in the robotics room getting everything ready for tournaments). It has been a lot of fun spending time with the team and crafting new robots to encompass our ideas.",
    },
    {
       "name": "Daniel Lawson",
@@ -27,37 +27,13 @@
       "name": "Bradley Bolton",
       "year": "Senior",
       "role": "Builder",
-      "paragraph": "This is my senior year at Greenhill, but only my second year on the team. I’ve been interested since I was a freshman, but did not have the time to participate until my junior year. I had no prior experience with robotics, but spent time using low voltage electronics and programming them with Arduino. As such, it was easy for me to jump into the swing of FTC. I spend most of my time working on the kinetic parts of the robot, specifically the slide and pulley mechanisms.",
+      "paragraph": "This is my senior year at Greenhill, but only my second year on the team. I’ve been interested since I was a freshman, but did not have the time to participate until my junior year as I was busy with work and fall sports. I had no prior experience with FTC but had spent time using low voltage electronics and programming them with Arduino. As such, it was easy for me to jump into the swing of FTC. This season, I spent most of my time working on our robot’s ability to hang, including some blacksmithing work to forge a suitable hook that will outlast 3D printed alternatives. ",
    },
    {
       "name": "Luke Contreras",
       "year": "Junior",
       "role": "Captain",
       "paragraph": "My name is Luke and I am a junior at Greenhill. I have been on the robotics team since my Sophomore year, acting both as a programmer and a builder. This year, I will be shifting my focus primarily to programming to gain more experience with Java and the software design process. In addition, I hope to continue expanding my communication and collaboration skills by working with the team in developing our robot.",
-   },
-   {
-      "name": "Amon Guinan",
-      "year": "Junior",
-      "role": "Builder",
-      "paragraph": "I joined Viridian as a sophomore due to my interest in engineering. I have enjoyed my time in the Viridian team so far. Historically, I have worked as a builder; however, I plan on working as a programmer this year. At this point, I have some experience in most areas of the development of robots and other various engineering projects. I plan on learning more in the areas of programming and design to further improve my skills.",
-   },
-   {
-      "name": "Everett Graves",
-      "year": "Sophomore",
-      "role": "Designer",
-      "paragraph": "I have officially been doing robotics since 6th grade (FLL) but I have been interested in engineering since before 4th grade. The reason I chose to be a designer is that I think I have a good vision about how to fix problems and see how things work. I also have experience with 3D printing. Aside from robotics, I spend a lot of time working with computers and engineering with Arduino and 3D printed prototypes.",
-   },
-   {
-      "name": "Aarian Dhanani",
-      "year": "Freshman",
-      "role": "Builder",
-      "paragraph": "Hello! I am a freshman. I am excited to be part of the Viridian robotics team! In Middle School, I was part of Greenhill’s FLL team. I was also in VEX Robotics. I like engineering and building items. Besides robotics, I am a Quizlet Ambassador and Beta Tester, and I am also a swimmer. I hope to gain experience out of this year and I know it will be a lot of fun!",
-   },
-   {
-      "name": "Travis Mann",
-      "year": "Freshman",
-      "role": "Builder",
-      "paragraph": "Hello! I’m a freshman. I enjoy creating and designing robots. I have built with VEX Robotics and want to do more. Before that I built with Legos and took them apart then built them again and again. I play cross country and golf for Greenhill.",
    },
    {
       "name": "Christopher Dycus",
@@ -90,15 +66,12 @@
       "paragraph": "I’m a freshman and this is my first year on the team. I love building things and am really excited for this season. I’ve never really done robotics before, and this year I decided that I wanted to give it a shot. I can’t wait to see what this season is going to be like.",
    },
    {
-      "name": "Victor Le",
-      "year": "Sophomore",
-      "role": "Programmer",
-      "paragraph": "I’m a sophomore and this is my second year in robotics. I am excited to see how this year will turn out for the robot and the team. I also hope to learn a lot from my time in robotics.",
-   },
-   {
-      "name": "Georgia Sasso",
-      "year": "Sophomore",
-      "role": "Builder",
-      "paragraph": "I’m a sophomore and this is my first year on the team. I have always loved to build and have had a small amount of programming experience from my coding class at the school I used to go to. I am very excited about this season because we have a lot of very talented people on this team, and I am excited to contribute to the work that this team will produce.",
-   },
+      "name": "Jothi Gupta",
+      "year": "Freshman",
+      "role": "Manager",
+      "paragraph": "I’m a freshman and this is my first year in robotics in high school. I did FLL all of middle school as well as VEX robotics for a year, and I really enjoyed it! I’m super pumped for robotics this year! I love to build, design, and I’m excited to learn to code as well. I have always loved building things from LEGOs to building objects from everyday materials. Outside of robotics, I love to do art, debate, write, and run cross country!
+
+
+",
+   }
 ]
