@@ -6,3 +6,4 @@ The website is mostly built using vanilla html/css. Boostrap is used for a few c
 
 ## Brief Documentation 
 I created [this guide](https://drive.google.com/file/d/1GPuAuaLfWjfohuCI20S1cgnkN7fQzf9V/view?usp=sharing) for new members and other teams who may be interested in creating a website similar to ours.
+Drive Link: https://drive.google.com/file/d/1GPuAuaLfWjfohuCI20S1cgnkN7fQzf9V/view?usp=sharing
