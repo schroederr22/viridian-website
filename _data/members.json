@@ -1,5 +1,11 @@
 ﻿[
    {
+      "name": "Luke Contreras",
+      "year": "Senior",
+      "role": "Captain",
+      "paragraph": "My name is Luke and I am a junior at Greenhill. I have been on the robotics team since my Sophomore year, acting both as a programmer and a builder. This year, I will be shifting my focus primarily to programming to gain more experience with Java and the software design process. In addition, I hope to continue expanding my communication and collaboration skills by working with the team in developing our robot.",
+   },
+   {
       "name": "Naren Ram",
       "year": "Junior",
       "role": "Captain",
@@ -7,33 +13,27 @@
 
    },
    {
-      "name": "Luke Contreras",
-      "year": "Senior",
-      "role": "Captain",
-      "paragraph": "asdfMy name is Luke and I am a junior at Greenhill. I have been on the robotics team since my Sophomore year, acting both as a programmer and a builder. This year, I will be shifting my focus primarily to programming to gain more experience with Java and the software design process. In addition, I hope to continue expanding my communication and collaboration skills by working with the team in developing our robot.",
-   },
-   {
       "name": "Christopher Dycus",
       "year": "Sophomore",
       "role": "Builder",
-      "paragraph": "asdfI am a freshman and this is my first year in FTC. In the last four years, I participated in the Greenhill FLL team, where I discovered my passion for robotics. I like to build anything, whether it’s electronics or plastic models. I have been interested in electronics and robotics for most of my life and I look forward to working with Viridian in the next year.",
+      "paragraph": "I am a freshman and this is my first year in FTC. In the last four years, I participated in the Greenhill FLL team, where I discovered my passion for robotics. I like to build anything, whether it’s electronics or plastic models. I have been interested in electronics and robotics for most of my life and I look forward to working with Viridian in the next year.",
    },
    {
       "name": "Timmy Nadolsky",
       "year": "Sophomore",
       "role": "Maneger",
-      "paragraph": "asdfHi, I’m Timmy and I’m a freshman. This is my first year of FTC. I’ve been in FLL for a while, and I’m excited to be writing Java and using advanced sensors and techniques for Viridian. I’ve also had experience with other object-oriented programming languages, as well as with VEX Robotics systems. I hope that I will learn a lot this year in FTC!",
+      "paragraph": "Hi, I’m Timmy and I’m a freshman. This is my first year of FTC. I’ve been in FLL for a while, and I’m excited to be writing Java and using advanced sensors and techniques for Viridian. I’ve also had experience with other object-oriented programming languages, as well as with VEX Robotics systems. I hope that I will learn a lot this year in FTC!",
    },
    {
       "name": "Matthew Cole",
       "year": "Sophomore",
       "role": "Designer",
-      "paragraph": "asdfHi, I am a freshman and this is my first year in FTC. I have experience in the franchise with FLL and I participated in FLL for 3 years. I am on the Greenhill swim team. I look forward to participating in robotics with Viridian in the coming years.",
+      "paragraph": "Hi, I am a freshman and this is my first year in FTC. I have experience in the franchise with FLL and I participated in FLL for 3 years. I am on the Greenhill swim team. I look forward to participating in robotics with Viridian in the coming years.",
    },
    {
       "name": "Varun Sureka",
       "year": "Sophomore",
       "role": "Builder",
-      "paragraph": "asdfI’m a freshman and this is my first year on the team. I love building things and am really excited for this season. I’ve never really done robotics before, and this year I decided that I wanted to give it a shot. I can’t wait to see what this season is going to be like.",
+      "paragraph": "I’m a freshman and this is my first year on the team. I love building things and am really excited for this season. I’ve never really done robotics before, and this year I decided that I wanted to give it a shot. I can’t wait to see what this season is going to be like.",
    },
 ]
