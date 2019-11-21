@@ -16,24 +16,68 @@
       "name": "Christopher Dycus",
       "year": "Sophomore",
       "role": "Builder",
-      "paragraph": "I am a freshman and this is my first year in FTC. In the last four years, I participated in the Greenhill FLL team, where I discovered my passion for robotics. I like to build anything, whether it’s electronics or plastic models. I have been interested in electronics and robotics for most of my life and I look forward to working with Viridian in the next year.",
+      "paragraph": "I am a sophmore and this is my second year in FTC. In the last four years, I participated in the Greenhill FLL team, where I discovered my passion for robotics. I like to build anything, whether it’s electronics or plastic models. I have been interested in electronics and robotics for most of my life and I look forward to working with Viridian in the next year.",
    },
    {
       "name": "Timmy Nadolsky",
       "year": "Sophomore",
-      "role": "Maneger",
-      "paragraph": "Hi, I’m Timmy and I’m a freshman. This is my first year of FTC. I’ve been in FLL for a while, and I’m excited to be writing Java and using advanced sensors and techniques for Viridian. I’ve also had experience with other object-oriented programming languages, as well as with VEX Robotics systems. I hope that I will learn a lot this year in FTC!",
+      "role": "Manager",
+      "paragraph": "Hi, I’m Timmy and I’m a sophmore. This is my second year of FTC. I’ve been in FLL for a while, and I’m excited to be writing Java and using advanced sensors and techniques for Viridian. I’ve also had experience with other object-oriented programming languages, as well as with VEX Robotics systems. I hope that I will learn a lot this year in FTC!",
    },
    {
       "name": "Matthew Cole",
       "year": "Sophomore",
       "role": "Designer",
-      "paragraph": "Hi, I am a freshman and this is my first year in FTC. I have experience in the franchise with FLL and I participated in FLL for 3 years. I am on the Greenhill swim team. I look forward to participating in robotics with Viridian in the coming years.",
+      "paragraph": "Hi, I am a sophmore and this is my second year in FTC. I have experience in the franchise with FLL and I participated in FLL for 3 years. I am on the Greenhill swim team. I look forward to participating in robotics with Viridian in the coming years.",
    },
    {
       "name": "Varun Sureka",
       "year": "Sophomore",
       "role": "Builder",
-      "paragraph": "I’m a freshman and this is my first year on the team. I love building things and am really excited for this season. I’ve never really done robotics before, and this year I decided that I wanted to give it a shot. I can’t wait to see what this season is going to be like.",
+      "paragraph": "I’m a sophmore and this is my second year on the team. I love building things and am really excited for this season. I’ve never really did robotics before, and last year I decided that I wanted to give it a shot. I can’t wait to see what this season is going to be like.",
    },
+   {
+       "name": "Travis Mann",
+       "year": "Sophomore",
+       "role": "Builder",
+       "paragraph": "My name is Travis Mann and this is my second year with Viridian Robotics. I contribute by building and fixing the robot as needed. As a child, I enjoyed playing with Legos and building things, which likely contributed to my liking of building today. Outside of robotics I do cross country and golf as sports. I also bike and enjoy taking pictures.",
+   },
+   {
+      "name": "Aakash Vattikuti",
+      "year": "Freshman",
+      "role": "Builder",
+      "paragraph": "I am in 9th grade. This is my first year of FTC. I chose to be a builder because I enjoy solving and adapting to problems. Previously, I’ve worked with LEGO Mindstorms. I’ve modified my robot to solve multiple challenges.",
+   },
+   {
+       "name": "Abhi Padala",
+       "year": "Sophomore",
+       "role": "Builder",
+       "paragraph": "My name is Abhi Padala and this is my second year with FTC and first year on Viridian Robotics. I'm a builder on the team and enjoy it a ton since it is extremely rewarding to build your own creations. In my free time I spend a lot of my time playing chess, reading, and playing games. In Viridian I have helped build the chassey, arm, and vertical lift.",
+   },
+   {
+      "name": "Aarian Dhanani",
+      "year": "Sophomore",
+      "role": "Builder",
+      "paragraph": "My name is Aarian Dhanani. I am a sophomore at Greenhill. I did FLL in middle school, and I’m excited for FTC! I’m a programmer on the team and I’m hoping to learn about robotics and teach more people next year. I’ve been helping with testing and ideas for the autonomous. I am experienced with Adobe Photoshop along with Premiere. Outside of school, I enjoy swimming and designing concept art.",
+   },
+   {
+       "name": "Azal Amer",
+       "year": "Freshman",
+       "role": "Builder",
+       "paragraph": "Hi! I’m Azal, a freshman. This is my fourth year of FIRST Robotics and my first year of FTC. I'm a builder/designer because I like working with my hands and seeing things come together. I've been working in tech for awhile, and I have my own journal for ideas. It all started when I began to work with a Raspberry Pi in Lower School. My passion for technology blew up from there. Outside of school, I run cross country, and I used to do quizbowl. ",
+   }, 
+   {
+      "name": "Christopher Row",
+      "year": "Freshman",
+      "role": "Designer",
+      "paragraph": "Hi, I’m Chris. This is my first year of FTC as well as my first year on a robotics team. I joined because I wanted to use the 3D Printers, which is why I’m a designer. Outside of school I like to play video games. Robotics is lots of fun, and I’m glad that I joined.",
+   }, 
+   {
+      "name": "Ryan Schroeder",
+      "year": "Sophomore",
+      "role": "Programmer",
+      "paragraph": "I’m Ryan Schroeder, and I am a sophomore at Greenhill School. This is my first year on the team, and I am working with the programmers. With no robotics experience, I am hoping to learn more about the robotic process this year. I run cross country, and in my free time, I watch Critical Role, as well as think about and play Dungeons and Dragons.",
+   }, 
+    
+    
 ]
