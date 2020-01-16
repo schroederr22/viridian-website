@@ -6,11 +6,11 @@
   
     - event: Plano Qualifier
     
-    awards: 
+      awards: 
     
-      - name: Inspire Award
+        - name: Inspire Award
       
-        level: 1st
+          level: 1st
     
 
 - years: 2018-2019
